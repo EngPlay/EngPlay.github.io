@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-417.000000, -1546.000000)" fill="#FFFFFF">
+            <g id="Group-3" transform="translate(0.000000, 1483.000000)">
+                <path d="M417,63.998769 C417,63.4471641 417.447526,63 417.998769,63 L466.001231,63 C466.552836,63 467,63.4475257 467,63.998769 L467,112.001231 C467,112.552836 466.552474,113 466.001231,113 L417.998769,113 C417.447164,113 417,112.552474 417,112.001231 L417,63.998769 Z M442,89.1883333 L422.025,73 L461.976667,73 L442,89.1883333 Z M432.958333,86.1516667 L422,77.27 L422,98.105 L432.958333,86.1516667 Z M451.041667,86.1516667 L462,98.105 L462,77.27 L451.041667,86.1516667 Z M448.446667,88.2533333 L442,93.4783333 L435.553333,88.2533333 L422.036667,103 L461.963333,103 L448.446667,88.2533333 L448.446667,88.2533333 Z" id="icon_mail"></path>
+            </g>
+        </g>
+    </g>
+</svg>
