@@ -32,6 +32,7 @@
 
 body {
   width: 100vw;
+  position: relative;
 }
 
 h1 {
@@ -360,11 +361,15 @@ h2 {
 ul{
   list-style-type: none;
   padding-left: 0px;
+  margin-bottom: 0px !important;
+}
+.reorder-xs {
+  margin-bottom: 18px !important;
 }
 
 .eventCard-container {
   padding-top: 36px;
-  height: auto;
+  height: 0px;
   padding-left: 18px !important;
   padding-right: 18px !important;
 }
@@ -372,7 +377,12 @@ ul{
   background: #FFFFFF;
   box-shadow: 0px 4px 8px 2px rgba(66,27,27,0.30);
 }
-.eventCard>.row>.title , .eventCard>.row>.caption{
+
+.eventCard>.row>div {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.eventCard>.row>div>.row>.title , .eventCard>.row>div>.row>.caption{
   margin-bottom: 12px;
   padding-left: 9px;
   padding-right: 9px;
@@ -385,24 +395,27 @@ ul{
   border-top: solid 2px #F3F3F3 !important;
 }
 
-.eventCard>img {
+.eventCard>.row>div>img {
   width: 100%;
   height: auto;
-  margin-bottom: 12px;
+}
+
+.eventCard>.row>#specs {
+  margin-top: 12px;
 }
 .eventDesc-container {
-  padding-top: 36px;
   height: auto;
   padding-left: 0px !important;
   padding-right: 18px !important;
 }
 
-.eventDesc {
+.eventDesc, .eventName-container {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
-.event-name {
+.eventName {
+  padding-top: 36px;
   padding-left: 18px;
   padding-right: 18px;
   font-family: BureauGrotesque-ThreeSeven;
@@ -410,7 +423,7 @@ ul{
   color: #373332;
   letter-spacing: 0px;
   line-height: 54px;
-  margin-bottom: 36px;
+  /*margin-bottom: 36px;*/
 }
 
 button {
@@ -447,7 +460,7 @@ button.CTA:hover {
 
 .cast {
   background: #FFFFFF;
-  box-shadow: 0px 4px 8px 2px rgba(66,27,27,0.30);
+  /*box-shadow: 0px 4px 8px 2px rgba(66,27,27,0.30);*/
   padding-bottom: 12px;
   margin-bottom: 27px;
 }
@@ -456,6 +469,69 @@ button.CTA:hover {
   width: 100%;
   margin-bottom: 12px;
 }
+
+
+@media (max-width: 767px) {
+  .eventCard-container {
+      height: auto !important;
+  }
+  .reorder-xs {
+    transform: rotate(180deg);
+    direction: rtl; /* Fix the horizontal alignment */
+  }
+
+  .reorder-xs > [class*="col-"] {
+    transform: rotate(-180deg);
+    direction: ltr; /* Fix the horizontal alignment */
+  }
+  .header-inner>ul.rightContent {
+    width: 100vw;
+    padding-top: 50px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 4px 8px 2px rgba(66,27,27,0.30);
+  }
+  .header-inner {
+    box-shadow: none;
+  }
+  .header-inner>ul.rightContent {
+    height: 0px;
+    overflow-y: scroll;
+  }
+
+  .header-inner>ul.rightContent>li>a>.tab {
+    width: 100vw;
+  }
+
+
+  button.menu {
+    display: block !important;
+    width: 56px;
+    height: 50px;
+    right: 0px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    z-index: 9999;
+  }
+}
+
+button.menu {
+  display: none;
+}
+button.menu.open {
+  background: url(../img/menu_open.svg) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+button.menu.close {
+  background: url(../img/menu_close.svg) no-repeat;
+  background-size: 24px 24px;
+  background-position: center center;
+}
+.hidden {
+  visibility: none;
+}
+
 /*=====Carousel======*/
 
 

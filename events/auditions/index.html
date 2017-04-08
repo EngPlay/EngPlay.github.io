@@ -13,28 +13,27 @@
 	    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
 	   	<title>Engplay</title>
 	</head>
-	<body>
 	<div id="banner-container" class="no-image">
 
 		<div id="header">
 			<div class="header-inner">
-				<ul class="leftContent">
-
-					<li><a href="../../index.html"><div class="tab">Home</div></a></li>
-				</ul>
+				<button class="menu open rightContent" onclick="showMenu()"></button>
 
 				<ul class="rightContent">
+					<li><a href="../../index.html#header"><div class="tab">Home</div></a></li>
 
-					<li><a href="#details"><div class="tab">Details</div></a></li>
+					<li><a href="../../index.html#events"><div class="tab">Events</div></a></li>
 
-					<li><a href="#directors"><div class="tab">Directors</div></a></li>
+					<li><a href="../../index.html#about"><div class="tab">About</div></a></li>
 
-					<li><a href="#contact"><div class="tab">Contact</div></a></li>
+					<li><a href="../../index.html#contact"><div class="tab">Contact</div></a></li>
 
 				</ul>
 			</div>
 		</div>
 
+
+	<body>
 		<!-- Make sure the image used here id 1:1 aspect ratio and bigger than 1024px wide -->
 		<!-- <img src="img/test_banner.png" alt=""> -->
 		<!--=================================================================================-->
@@ -42,24 +41,37 @@
 
 	<div class="content">
 		<div class="row">
-			<div class="eventCard-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<div class="row reorder-xs">
+			<div class="eventCard-container col-lg-4 col-md-4 col-sm-4 col-xs-12 reverseStack">
 				<div class="eventCard">
-					<img src="img/poster_small.png" alt="">
 					<div class="row">
-						<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-4">Date</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-8">3rd September 2017</div>
-						<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-4">Venu</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-8">Humanities Theatre</div>
-						<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-4">Runtime</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-8">90min</div>
-						<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-4">Price</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-8">$15</div>
+						<div class="col-lg-12 col-ms-12 col-sm-12 col-xs-5">
+							<img src="img/poster_small.png" alt="">
+						</div>
+						<div id="specs" class="col-lg-12 col-ms-12 col-sm-12 col-xs-7">
+							<div class="row">
+								<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-5">Date</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-7">3 Sep 17</div>
+								<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-5">Venu</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-7">CPH 3607</div>
+								<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-5">Runtime</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-7">90min</div>
+								<div class="title col-lg-4 col-md-4 col-sm-4 col-xs-5">Price</div><div class="caption col-lg-8 col-md-8 col-sm-8 col-xs-7">$15</div>
+							</div>
+						</div>
 					</div>
 					<div class="action-container">
 						<a href="https://www.youtube.com/watch?v=0Y8u7MvuArA"><button class="CTA">Buy Tickets</button></a>
 					</div>
-				</div>
 
+				</div>
 			</div>
-			<div class="eventDesc-container col-lg-8 col-md-8 col-sm-8 col-xs-12">
+
+			<div class="eventName-container col-lg-8 col-md-8 col-sm-8 col-xs-12 reverseStack">
+				<div class="eventName">Auditions Summer 17</div>
+			</div>
+		</div>
+
+			<div class="eventDesc-container col-lg-offset-4 col-lg-8 col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8 col-xs-12">
 				<section id="details">
-					<div class="event-name">Auditions Summer 17</div>
+
 					<h1 class="padding">
 						Details
 						<div class="accent"></div>
@@ -91,7 +103,7 @@
 						<div class="accent"></div>
 					</h1>
 					<div class="casting row padding-9">
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>
@@ -99,7 +111,7 @@
 							</div>
 						</div>
 
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>
@@ -107,7 +119,7 @@
 							</div>
 						</div>
 
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>
@@ -115,7 +127,7 @@
 							</div>
 						</div>
 
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>
@@ -123,7 +135,7 @@
 							</div>
 						</div>
 
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>
@@ -131,7 +143,7 @@
 							</div>
 						</div>
 
-						<div class="cast-container col-lg-4 col-md-4 col-sm-4 col-xs-6">
+						<div class="cast-container col-lg-3 col-md-3 col-sm-3 col-xs-4">
 							<div class="cast">
 								<img src="img/cast_bob.png" alt="">
 								<div class="title textCenter">Micheal Jonas Johnson</div>

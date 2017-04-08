@@ -1,37 +1,44 @@
-$( window ).resize(function() {
-	headerBar();
-});
+// $(document).ready(function(){
+// 	// Add smooth scrolling to all links
+// 	$("a").on('click', function(event) {
+//
+// 		// Make sure this.hash has a value before overriding default behavior
+// 		if (this.hash !== "") {
+// 			// Prevent default anchor click behavior
+// 			event.preventDefault();
+//
+// 			// Store hash
+// 			var hash = this.hash;
+//
+// 			// Using jQuery's animate() method to add smooth page scroll
+// 			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+// 			$('html, body').animate({
+// 				scrollTop: $(hash).offset().top-60
+// 			}, 300, function(){
+//
+// 				// Add hash (#) to URL when done scrolling (default click behavior)
+// 				window.location.hash = hash;
+// 			});
+// 		} // End if
+// 	});
+// });
 
-function headerBar() {
-	if($(window).width() < 992) {
-		$('.header-inner>.rightContent').hide();
-	}
-	else {
-		$('.header-inner>.rightContent').show();
-	}
+function showMenu() {
+	$( ".header-inner>ul.rightContent" ).animate({
+    height: "100vh"
+  }, 300);
+	$("button.menu").attr("onclick","hideMenu()");
+	$("button.menu").addClass("close").removeClass("open");
 }
-$(document).ready(function(){
-	headerBar();
-	// Add smooth scrolling to all links
-	$("a").on('click', function(event) {
 
-		// Make sure this.hash has a value before overriding default behavior
-		if (this.hash !== "") {
-			// Prevent default anchor click behavior
-			event.preventDefault();
+function hideMenu() {
+	$( ".header-inner>ul.rightContent" ).animate({
+    height: "0px"
+  }, 150);
+	$("button.menu").attr("onclick","showMenu()");
+	$("button.menu").addClass("open").removeClass("close");
+}
 
-			// Store hash
-			var hash = this.hash;
-
-			// Using jQuery's animate() method to add smooth page scroll
-			// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-			$('html, body').animate({
-				scrollTop: $(hash).offset().top-60
-			}, 300, function(){
-
-				// Add hash (#) to URL when done scrolling (default click behavior)
-				window.location.hash = hash;
-			});
-		} // End if
+  $('.header-inner>ul.rightContent>li>a').click(function() {
+		hideMenu();
 	});
-});
