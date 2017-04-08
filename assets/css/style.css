@@ -69,6 +69,13 @@ h1>.accent {
   background-size: cover;
 }
 
+#banner-container.no-image {
+  width: 100%;
+  height: 59px;
+  background-image: none;
+  background-color: transparent;
+}
+
 .changeBG {
   background-image: none !important;
   overflow: hidden;
