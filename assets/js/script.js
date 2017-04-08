@@ -4,10 +4,10 @@ $( window ).resize(function() {
 
 function headerBar() {
 	if($(window).width() < 992) {
-		$('#header').hide();
+		$('#header>.rightContent').hide();
 	}
 	else {
-		$('#header').show();
+		$('#header>.rightContent').show();
 	}
 }
 $(document).ready(function(){
