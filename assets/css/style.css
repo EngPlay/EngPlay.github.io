@@ -440,6 +440,7 @@ button.CTA {
   width: 100%;
   height: 56px;
   color: #fff !important;
+  font-size: 18px;
 }
 
 button.CTA:hover {
