@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: BureauGrotesque-ThreeSeven;
-    src: url(../fonts/AvenirNextCondensed-Bold.ttf);
+    src: url(../fonts/AvenirNextCondensed-DemiBold.ttf);
 }
 
 @font-face {
@@ -368,7 +368,7 @@ ul{
 }
 
 .eventCard-container {
-  padding-top: 36px;
+  padding-top: 18px;
   height: 0px;
   padding-left: 18px !important;
   padding-right: 18px !important;
@@ -387,7 +387,7 @@ ul{
   padding-left: 9px;
   padding-right: 9px;
 }
-.eventCard>.action-container {
+.action-container {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 9px;
@@ -438,7 +438,7 @@ button.CTA {
   /*letter-spacing: 1px !important;*/
   border: none;
   width: 100%;
-  height: 56px;
+  height: 50px;
   color: #fff !important;
   font-size: 18px !important;
 }
@@ -533,6 +533,29 @@ button.menu.close {
   visibility: none;
 }
 
+.play>.eventName {
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 18px;
+}
+
+.play>.caption {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+.play>.caption.summary {
+  margin-bottom: 76px !important;
+}
+.play>.title {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+.action-container.align-bottom {
+  margin-top: -76px;
+}
 /*=====Carousel======*/
 
 
