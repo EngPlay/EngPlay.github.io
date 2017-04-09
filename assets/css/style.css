@@ -496,7 +496,7 @@ button.CTA:hover {
   }
   .header-inner>ul.rightContent {
     height: 0px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
   }
 
   .header-inner>ul.rightContent>li>a>.tab {
