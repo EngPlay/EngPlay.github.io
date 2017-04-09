@@ -369,6 +369,7 @@ ul{
 
 .eventCard-container {
   padding-top: 18px;
+  max-width: 768px;
   height: 0px;
   padding-left: 18px !important;
   padding-right: 18px !important;
