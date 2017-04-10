@@ -369,7 +369,7 @@ ul{
   padding-left: 0px;
   margin-bottom: 0px !important;
 }
-.reorder-xs {
+.screenGutter {
   margin-bottom: 0px !important;
   margin-top: 86px !important;
 }
@@ -490,7 +490,7 @@ button.CTA:hover {
   .eventName-container {
     padding-bottom: 18px;
   }
-  
+
   .reorder-xs {
     transform: rotate(180deg);
     direction: rtl; /* Fix the horizontal alignment */
