@@ -608,3 +608,9 @@ button.menu.close {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+.logoSmall {
+  background: url(../img/logo_small.svg) no-repeat;
+  background-position: center 9px;
+  background-size: auto 32px;
+}
