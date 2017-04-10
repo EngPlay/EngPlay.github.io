@@ -414,7 +414,7 @@ ul{
   margin-top: 12px;
 }
 .eventDesc-container {
-  height: auto;
+  min-height: 537px !important;
   padding-left: 0px !important;
   padding-right: 18px !important;
 }
@@ -425,10 +425,9 @@ ul{
 }
 
 .eventName {
-  padding-top: 18px;
+  padding-top: 0px;
   padding-left: 18px;
   padding-right: 18px;
-  padding-bottom: 18px;
   font-family: AvenirNextCondensed-DemiBold;
   font-size: 54px;
   color: #373332;
@@ -544,7 +543,10 @@ button.menu.close {
   visibility: none;
 }
 
-
+.play>.eventName {
+  padding-top: 36px;
+  padding-bottom: 18px;
+}
 .play>.caption {
   padding-left: 18px !important;
   padding-right: 18px !important;
