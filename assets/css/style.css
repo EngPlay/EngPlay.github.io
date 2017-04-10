@@ -424,6 +424,10 @@ ul{
   padding-right: 0px !important;
 }
 
+.eventName-container {
+  padding-bottom: 18px;
+}
+
 .eventName {
   padding-top: 0px;
   padding-left: 18px;
