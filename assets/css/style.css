@@ -21,11 +21,6 @@
 }
 
 @font-face {
-    font-family: BureauGrotesque-ThreeSeven;
-    src: url(../fonts/AvenirNextCondensed-DemiBold.ttf);
-}
-
-@font-face {
     font-family: AbrilFatface-Regular;
     src: url(../fonts/AbrilFatface-Regular.ttf);
 }
@@ -275,7 +270,7 @@ a:hover {
 }
 a {
   cursor: pointer;
-  font-family: BureauGrotesque-ThreeSeven !important;
+  font-family: AvenirNextCondensed-DemiBold !important;
   font-size: 14px;
   color: #FFA53C  !important;
   letter-spacing: 0px;
@@ -430,9 +425,11 @@ ul{
 }
 
 .eventName {
+  padding-top: 18px;
   padding-left: 18px;
   padding-right: 18px;
-  font-family: BureauGrotesque-ThreeSeven;
+  padding-bottom: 18px;
+  font-family: AvenirNextCondensed-DemiBold;
   font-size: 54px;
   color: #373332;
   letter-spacing: 0px;
@@ -446,7 +443,7 @@ button {
   outline: none;
 }
 button.CTA {
-  font-family: BureauGrotesque-ThreeSeven;
+  font-family: AvenirNextCondensed-DemiBold;
   background: #FFA53C;
   /*letter-spacing: 1px !important;*/
   border: none;
@@ -547,12 +544,6 @@ button.menu.close {
   visibility: none;
 }
 
-.play>.eventName {
-  padding-top: 18px;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 18px;
-}
 
 .play>.caption {
   padding-left: 18px !important;
