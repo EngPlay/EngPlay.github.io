@@ -33,7 +33,7 @@ function showMenu() {
 
 function hideMenu() {
 	$( ".header-inner>ul.rightContent" ).animate({
-    height: "50px"
+    height: "0px"
   }, 150);
 	$("button.menu").attr("onclick","showMenu()");
 	$("button.menu").addClass("open").removeClass("close");
