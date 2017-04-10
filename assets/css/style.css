@@ -374,7 +374,7 @@ ul{
   margin-bottom: 0px !important;
 }
 .reorder-xs {
-  margin-bottom: 18px !important;
+  margin-bottom: 0px !important;
   margin-top: 86px !important;
 }
 
@@ -431,6 +431,7 @@ ul{
 .eventName {
   padding-left: 18px;
   padding-right: 18px;
+  margin-bottom: 18px;
   font-family: BureauGrotesque-ThreeSeven;
   font-size: 54px;
   color: #373332;
@@ -601,4 +602,9 @@ button.menu.close {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
