@@ -451,6 +451,7 @@ button.CTA {
   height: 50px;
   color: #fff !important;
   font-size: 18px !important;
+  border-radius: 2px !important;
 }
 
 button.CTA:hover {
