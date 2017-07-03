@@ -452,6 +452,7 @@ button.CTA {
   color: #fff !important;
   font-size: 18px !important;
   border-radius: 2px !important;
+  max-width: 360px;
 }
 
 button.CTA:hover {
