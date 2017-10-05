@@ -235,14 +235,14 @@ h1>.accent {
 .caption {
   /* 24th July 2017: */
   font-family: AvenirNextCondensed-Regular;
-  font-size: 16px;
+  font-size: 18px;
   color: #8F8E93;
   letter-spacing: 0px;
 }
 .title {
   /* Summer 2017 Engplay: */
   font-family: AvenirNextCondensed-DemiBold;
-  font-size: 16px;
+  font-size: 18px;
   color: #373332;
   letter-spacing: 0px;
 }
@@ -271,7 +271,7 @@ a:hover {
 a {
   cursor: pointer;
   font-family: AvenirNextCondensed-DemiBold !important;
-  font-size: 14px;
+  font-size: 20px;
   color: #FFA53C  !important;
   letter-spacing: 0px;
   outline: none;
@@ -308,12 +308,12 @@ section {
 p {
   /* Two years ago, I too: */
   font-family: AvenirNextCondensed-Regular;
-  font-size: 16px;
+  font-size: 20px;
   color: #373332;
   letter-spacing: 0px;
-  line-height: 24px;
+  line-height: 30px;
   padding-top: 0px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
   /* Two years ago, I too: */
 }
 
