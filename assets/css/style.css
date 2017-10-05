@@ -235,14 +235,14 @@ h1>.accent {
 .caption {
   /* 24th July 2017: */
   font-family: AvenirNextCondensed-Regular;
-  font-size: 18px;
+  font-size: 16px;
   color: #8F8E93;
   letter-spacing: 0px;
 }
 .title {
   /* Summer 2017 Engplay: */
   font-family: AvenirNextCondensed-DemiBold;
-  font-size: 18px;
+  font-size: 16px;
   color: #373332;
   letter-spacing: 0px;
 }
@@ -271,7 +271,7 @@ a:hover {
 a {
   cursor: pointer;
   font-family: AvenirNextCondensed-DemiBold !important;
-  font-size: 20px;
+  font-size: 14px;
   color: #FFA53C  !important;
   letter-spacing: 0px;
   outline: none;
@@ -308,12 +308,12 @@ section {
 p {
   /* Two years ago, I too: */
   font-family: AvenirNextCondensed-Regular;
-  font-size: 20px;
+  font-size: 16px;
   color: #373332;
   letter-spacing: 0px;
-  line-height: 30px;
+  line-height: 24px;
   padding-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   /* Two years ago, I too: */
 }
 
@@ -434,6 +434,7 @@ ul{
   color: #373332;
   letter-spacing: 0px;
   line-height: 54px;
+  text-align: right;
 }
 
 button {
@@ -478,7 +479,7 @@ button.CTA:hover {
   background: #FFFFFF;
   /*box-shadow: 0px 4px 8px 2px rgba(66,27,27,0.30);*/
   padding-bottom: 12px;
-  margin-bottom: 27px;
+  margin-bottom: 12px;
 }
 
 .cast>img {
@@ -565,6 +566,7 @@ button.menu.close {
 
 .play>.caption.summary {
   margin-bottom: 94px !important;
+  padding-top: 18px !important;
 }
 .play>.title {
   padding-left: 18px !important;
