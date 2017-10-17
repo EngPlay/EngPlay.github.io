@@ -6,5 +6,5 @@ This repository is intended to include all the code and assets for each EngPlay.
 
 To contribute code, contact the EngPlay directors or EngSoc.   
 
-Current A-SOC Directors: Michael Jonas, Robbie Lowles   
+Current A-SOC Directors: Namrata Sharma
 Current B-SOC Directors: Kieran Broekhoven, Tim Woerle, Chelsea VanderMeer
