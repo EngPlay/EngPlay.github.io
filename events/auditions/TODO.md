@@ -1,0 +1,3 @@
+- Update History (if possible)
+- finish the blurb
+- find poster/art images
