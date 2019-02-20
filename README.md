@@ -6,6 +6,6 @@ This repository is intended to include all the code and assets for each EngPlay.
 
 To contribute code, contact the EngPlay directors or EngSoc.   
 
-Current A-SOC Directors: Claudia Nashmi, Elton Tang
+Current A-SOC Directors: Reed Rodgers, Greg Sinclair
 
-Current B-SOC Directors: TBD
+Current B-SOC Directors: Noah Abradjian, James Liu
